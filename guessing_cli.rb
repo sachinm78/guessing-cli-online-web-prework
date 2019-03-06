@@ -6,5 +6,6 @@ def run_guessing_game
       puts "You guessed the correct number!"
     elsif user_input != roll
       puts "The computer guessed #{roll}."
-    elsif user_input == exit
+    elsif user_input == "exit"
+      puts 
 end
