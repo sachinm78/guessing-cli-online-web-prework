@@ -8,4 +8,5 @@ def run_guessing_game
       puts "The computer guessed #{roll}."
     elsif user_input == "exit"
       puts "Goodbye!"
+    end
 end
